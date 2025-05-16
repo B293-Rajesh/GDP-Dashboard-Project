@@ -19,8 +19,8 @@ This project scrapes the **List of countries by GDP (nominal)** from Wikipedia, 
 - 🌐 Scrapes the latest GDP data from [Wikipedia](https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(nominal))
 - 🧹 Cleans messy formatting, removes citations like `[1]`, and drops nulls
 - 📁 Saves clean data to:
-  - `cleaned_gdp_data.csv`
-  - `cleaned_gdp_data.xlsx`
+  - `cleaned_data.csv`
+  - `cleaned_data.xlsx`
 - 💡 Supports direct import into Tableau and Excel
 
 ---
