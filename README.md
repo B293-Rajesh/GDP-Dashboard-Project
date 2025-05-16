@@ -55,51 +55,66 @@ Two dashboards were developed using Tableau Public Desktop to visualize global e
 
 ---
 
-### 🧱 Dashboard 1: IMF GDP Forecast by Country – 2025 Overview
+### 🧱 Dashboard 1: IMF Heatmap & World Bank Bubbles
 
 ![IMF GDP Forecast Dashboard](images/Dashboard1.png)
 
 #### 📌 Description:
-This dashboard uses a **treemap** to visualize GDP forecasts provided by the **International Monetary Fund (IMF)** for the year 2025. Each rectangle represents a country or region, and its size corresponds to the projected GDP value.
+This dashboard combines a **heatmap** of IMF GDP forecasts for 2025 and a **packed bubble chart** of World Bank GDP estimates for 2023.
 
 #### 📈 Key Insights:
-- The **World** aggregate provides a full-scale reference.
-- Leading economies such as the **United States**, **China**, and **Germany** are highlighted due to their large GDP.
-- Allows for quick comparative analysis of countries' projected economic performance.
+- The **heatmap** highlights the relative GDP forecast per country based on color intensity.
+- The **bubble chart** visually compares countries’ GDPs based on the World Bank’s estimates, emphasizing scale using size and color.
 
-#### 🛠️ Chart Type:
-- **Treemap** – best for showing proportional relationships within a hierarchy.
+#### 🛠️ Components:
+- **Sheet 1: Heatmap**
+  - Columns: `Country/Territory`
+  - Rows: `IMF Forecast`
+  - Marks: `Square`
+  - Color: `IMF Forecast`
+
+- **Sheet 2: Packed Bubbles**
+  - Marks: `Circle`
+  - Size: `World Bank Estimate`
+  - Color: `World Bank Estimate`
+  - Label: `Country/Territory`
 
 ---
 
-### 🌐 Dashboard 2: World Bank GDP Estimates by Country – 2023
+### 🌐 Dashboard 2: Area Charts of IMF & World Bank Estimates
 
 ![World Bank GDP Dashboard](images/Dashboard2.png)
 
 #### 📌 Description:
-This visualization uses **packed bubbles** to display GDP estimates from the **World Bank** for 2023. Each circle’s size reflects the GDP of that country.
+This dashboard displays two **area charts** side by side — one for IMF forecasts and one for World Bank estimates — allowing for a comparative trend view of GDPs across countries.
 
 #### 📈 Key Insights:
-- The largest circle represents the **World** total GDP.
-- Major economies such as **United States**, **China**, and **India** are prominently displayed.
-- Enables easy visual comparison of GDP sizes across countries.
+- Visualizes the distribution of GDP data across countries in 2025 (IMF) and 2023 (World Bank).
+- Offers clear comparison through shape and color shading.
 
-#### 🛠️ Chart Type:
-- **Packed Bubbles** – useful for highlighting magnitude and grouping data visually.
+#### 🛠️ Components:
+- **Sheet 3: Area Chart – IMF Forecast**
+  - Columns: `Country/Territory`
+  - Rows: `IMF Forecast`
+  - Marks: `Area`
+  - Tooltip: Enabled for values
+
+- **Sheet 4: Area Chart – World Bank Estimate**
+  - Columns: `Country/Territory`
+  - Rows: `World Bank Estimate`
+  - Marks: `Area`
+  - Tooltip: Enabled for values
 
 ---
 
-## 📊 Additional Sheet: World Bank Estimate by Country (Area Chart)
+## 📂 Sheet Summary
 
-![World Bank Area Chart](images/sheet4_area_chart.png)
-
-#### 📌 Description:
-An **area chart** showing the World Bank's GDP estimates across countries.
-
-#### 📈 Key Highlights:
-- X-axis: Countries/Territories
-- Y-axis: GDP Estimate
-- Gives a high-level view of GDP distribution globally, sorted by country
+| Sheet Name | Visualization Type | Data Used | Axes / Encoding |
+|------------|---------------------|-----------|-----------------|
+| Sheet 1    | Heatmap             | IMF Forecast | X: Country, Y: IMF Forecast, Color: IMF |
+| Sheet 2    | Packed Bubbles      | World Bank Estimate | Size & Color: Estimate |
+| Sheet 3    | Area Chart          | IMF Forecast | X: Country, Y: Forecast |
+| Sheet 4    | Area Chart          | World Bank Estimate | X: Country, Y: Estimate |
 
 ---
 
@@ -111,19 +126,5 @@ An **area chart** showing the World Bank's GDP estimates across countries.
 - **Interactivity:** Tooltips and visual hierarchy for detailed exploration
 
 ---
-
-## 📂 How to View Dashboards
-
-1. Open the `.twbx` Tableau project file in **Tableau Public Desktop**.
-2. Alternatively, publish to [Tableau Public](https://public.tableau.com/) and embed the links.
-3. Hover over visual elements to view detailed GDP values by country.
-
----
-
-## 🖼️ Screenshot Files
-
-Make sure these images are placed in a folder named `images/` inside your GitHub repository:
-
-
 
 
