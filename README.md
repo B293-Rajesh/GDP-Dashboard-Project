@@ -41,3 +41,4 @@ This project scrapes the **List of countries by GDP (nominal)** from Wikipedia, 
 ### 1. Install Requirements
 ```bash
 pip install pandas requests beautifulsoup4 lxml openpyxl
+python WebScrap.py ```
