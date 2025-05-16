@@ -57,7 +57,7 @@ Two dashboards were developed using Tableau Public Desktop to visualize global e
 
 ### 🧱 Dashboard 1: IMF GDP Forecast by Country – 2025 Overview
 
-![IMF GDP Forecast Dashboard](./path-to-your-screenshot1.png)
+![IMF GDP Forecast Dashboard](images/dashboard1.png)
 
 #### 📌 Description:
 This dashboard uses a **treemap** to visualize GDP forecasts provided by the **International Monetary Fund (IMF)** for the year 2025. Each rectangle represents a country or region, and its size corresponds to the projected GDP value.
@@ -74,7 +74,7 @@ This dashboard uses a **treemap** to visualize GDP forecasts provided by the **I
 
 ### 🌐 Dashboard 2: World Bank GDP Estimates by Country – 2023
 
-![World Bank GDP Dashboard](./path-to-your-screenshot2.png)
+![World Bank GDP Dashboard](images/dashboard2.png)
 
 #### 📌 Description:
 This visualization uses **packed bubbles** to display GDP estimates from the **World Bank** for 2023. Each circle’s size reflects the GDP of that country.
@@ -89,6 +89,20 @@ This visualization uses **packed bubbles** to display GDP estimates from the **W
 
 ---
 
+## 📊 Additional Sheet: World Bank Estimate by Country (Area Chart)
+
+![World Bank Area Chart](images/sheet4_area_chart.png)
+
+#### 📌 Description:
+An **area chart** showing the World Bank's GDP estimates across countries.
+
+#### 📈 Key Highlights:
+- X-axis: Countries/Territories
+- Y-axis: GDP Estimate
+- Gives a high-level view of GDP distribution globally, sorted by country
+
+---
+
 ## 🔧 Tools & Data
 
 - **Visualization Tool:** Tableau Public Desktop
@@ -97,5 +111,19 @@ This visualization uses **packed bubbles** to display GDP estimates from the **W
 - **Interactivity:** Tooltips and visual hierarchy for detailed exploration
 
 ---
+
+## 📂 How to View Dashboards
+
+1. Open the `.twbx` Tableau project file in **Tableau Public Desktop**.
+2. Alternatively, publish to [Tableau Public](https://public.tableau.com/) and embed the links.
+3. Hover over visual elements to view detailed GDP values by country.
+
+---
+
+## 🖼️ Screenshot Files
+
+Make sure these images are placed in a folder named `images/` inside your GitHub repository:
+
+
 
 
