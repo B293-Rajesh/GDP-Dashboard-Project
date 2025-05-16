@@ -57,7 +57,7 @@ Two dashboards were developed using Tableau Public Desktop to visualize global e
 
 ### 🧱 Dashboard 1: IMF GDP Forecast by Country – 2025 Overview
 
-![IMF GDP Forecast Dashboard](images/dashboard1.png)
+![IMF GDP Forecast Dashboard](images/Dashboard1.png)
 
 #### 📌 Description:
 This dashboard uses a **treemap** to visualize GDP forecasts provided by the **International Monetary Fund (IMF)** for the year 2025. Each rectangle represents a country or region, and its size corresponds to the projected GDP value.
@@ -74,7 +74,7 @@ This dashboard uses a **treemap** to visualize GDP forecasts provided by the **I
 
 ### 🌐 Dashboard 2: World Bank GDP Estimates by Country – 2023
 
-![World Bank GDP Dashboard](images/dashboard2.png)
+![World Bank GDP Dashboard](images/Dashboard2.png)
 
 #### 📌 Description:
 This visualization uses **packed bubbles** to display GDP estimates from the **World Bank** for 2023. Each circle’s size reflects the GDP of that country.
